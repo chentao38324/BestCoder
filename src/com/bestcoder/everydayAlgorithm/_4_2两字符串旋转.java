@@ -11,7 +11,7 @@ package com.bestcoder.everydayAlgorithm;
  * "cdab",4,"abcd",4
  * 返回：true
  */
-public class 两字符串旋转 {
+public class _4_2两字符串旋转 {
     public boolean chkRotation(String A, int lena, String B, int lenb) {
         // write code here
         if(lena != lenb) return false;

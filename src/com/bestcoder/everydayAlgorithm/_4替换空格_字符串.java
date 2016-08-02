@@ -3,7 +3,7 @@ package com.bestcoder.everydayAlgorithm;
 /**
  * Created by chentao on 16-8-1.
  */
-public class 替换空格 {
+public class _4替换空格_字符串 {
     public static void main(String args[]) {
         String s = "We are happy.";
         char c_old[] = s.toCharArray();
@@ -20,7 +20,7 @@ public class 替换空格 {
     /**
      * 计算新的字符串
      * @param c 带空格的字符数组
-     * @param l ength是指第一个字符到最后一个字符的长度，不是字符数组的长度
+     * @param length 是指第一个字符到最后一个字符的长度，不是字符数组的长度
      * @return
      */
     public static String replaceBlank(char c[], int length) {

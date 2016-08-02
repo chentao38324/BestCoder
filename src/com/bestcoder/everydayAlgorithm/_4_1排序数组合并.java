@@ -3,7 +3,7 @@ package com.bestcoder.everydayAlgorithm;
 /**
  * Created by chentao on 16-8-1.
  */
-public class 排序数组合并 {
+public class _4_1排序数组合并 {
     public static int[] sortArray(int[] array1,int[] array2){
         int len1 = array1.length;
         int len2 = array2.length;

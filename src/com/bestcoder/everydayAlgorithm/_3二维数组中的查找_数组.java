@@ -10,7 +10,7 @@ import java.util.Scanner;
  * 返回：是否含有这个整数
  * 思路：从右上角开始查找，如果大于要查找的数就剔除 列，小于剔除 行，等于返回true
  */
-public class 二维数组中的查找 {
+public class _3二维数组中的查找_数组 {
     public static boolean find(int[][] array,int num){
         int rowNum = array.length;//行数
         int columnNum = array[0].length;//列数

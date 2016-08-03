@@ -6,6 +6,8 @@ import java.util.Stack;
 
 /**
  * Created by chentao on 16-8-2.
+ * 思路：从尾到头打印 从前向后遍历，放入栈 先入后出可实现
+ * 递归实现，递归本质是一个栈，每访问到一个节点的时候，先递归输出它后面的节点，在输出该节点自身
  */
 public class _5从尾到头打印链表_链表 {
     public static void main(String[] args) {

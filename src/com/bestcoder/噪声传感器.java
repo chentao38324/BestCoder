@@ -14,7 +14,7 @@ public class 噪声传感器 {
                 int item = in.nextInt();
                 array[i] = item;
             }
-            array = improvedbubble(array);
+//            array = improvedbubble(array);
             int a = array[n/2] + 1;
 //            int b = array[n-2] + 1;
             int b1,b2;
@@ -29,7 +29,7 @@ public class 噪声传感器 {
             System.out.println(Math.max(a,b));
         }
     }
-    private static int[] improvedbubble(int[] data) {
+    /*private static int[] improvedbubble(int[] data) {
         int tem;  //临时变量
         int flag;  //判断是否有执行交换的动作
         int size = data.length;//原始数组大小
@@ -49,5 +49,5 @@ public class 噪声传感器 {
             }
         }
         return data;
-    }
+    }*/
 }

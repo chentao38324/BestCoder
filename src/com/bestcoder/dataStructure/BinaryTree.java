@@ -41,6 +41,8 @@ public class BinaryTree {
         System.out.println("\n层序遍历按层换行:");
         layerOrderWrap(rootNode);
 
+
+
     }
 
     /**
@@ -71,9 +73,11 @@ public class BinaryTree {
 
     /**
      * 链表构建二叉树
+     * 这也就是二叉排序树
+     * 中序遍历就是从小到大，若放入栈再pop出就是从大到小了
      * @param array
      */
-    private static TreeNode linkListShow(int[] array) {
+    public static TreeNode linkListShow(int[] array) {
         TreeNode rootNode = null;  //二叉树根节点
         for (int i = 0; i < array.length; i++) {
             TreeNode currentNode = rootNode;
@@ -106,6 +110,29 @@ public class BinaryTree {
             }
         }
         return rootNode;
+    }
+
+    /**
+     * 二叉搜索树 的搜索
+     * 懂排序就可以理解搜索，只需要在二叉树中比较树根及要搜索的值，再按大小原则递归遍历
+     * @param node
+     * @param value
+     * @return
+     */
+    public static int count = 1;
+    public static boolean findTree(TreeNode node,int value){
+       if (node == null){
+           return false;
+       }else if (node.value == value){
+           System.out.println("共搜索"+count+"次\n");
+           return true;
+       }else if (value < node.value){
+           count++;
+           return findTree(node.leftNode,value);
+       }else {
+           count++;
+           return findTree(node.rightNode,value);
+       }
     }
 
     /**

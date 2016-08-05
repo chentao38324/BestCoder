@@ -10,7 +10,23 @@ public class 排序再总结 {
     public static void main(String[] args){
         radixSort(data);
         for (int i : data) {
-            System.out.println(i);
+            System.out.print(i+" ");
+        }
+
+        int arr[] = new int[] { 6, 5, 3, 1, 8, 7, 2, 4 };
+        System.out.println();
+        System.out.println("堆排序结果为:");
+        heapSort(arr);
+        for (int data : arr)
+            System.out.print(data + ". ");
+        System.out.println();
+        int[] arry = { 6, 2, 4, 1, 5, 9,45,65,345,234,445,323,789,45,343,454,555,556,335 };
+//        quickSort2(arry,0,arry.length-1);
+        shellSort(arry);
+        System.out.println("shell结果为:");
+        for (int i = 0; i < arry.length; i++) {
+            System.out.print(arry[i]+", ");
+
         }
     }
 
@@ -19,7 +35,7 @@ public class 排序再总结 {
     /**
      * 传统冒泡排序
      */
-    private static void bubble(int[] data) {
+    /*private static void bubble(int[] data) {
         int size = data.length;//原始数组大小
         int tem; //临时变量
         for (int i = size-1;i>0;i--) {
@@ -32,12 +48,12 @@ public class 排序再总结 {
                 }
             }
         }
-    }
+    }*/
 
     /**
      * 改进的冒泡排序，如果一次比较后没有交换 证明已排好序，直接跳出循环
      */
-    private static void improvedbubble(int[] data) {
+    /*private static void improvedbubble(int[] data) {
         int tem;  //临时变量
         int flag;  //判断是否有执行交换的动作
         int size = data.length;//原始数组大小
@@ -56,14 +72,14 @@ public class 排序再总结 {
                 break;
             }
         }
-    }
+    }*/
 
     /**
      * 选择排序
-     * 例如N个数据要由大到小排序时，首先以第一个位置的数据，
+     * 例如N个数据要由小到大排序时，首先以第一个位置的数据，
      * 依次向2,3,4，N个位置的数据作比较，
-     * 如果数据大于或等于其中一个位置，则两个位置的数据不变，
-     * 若小于，则交换
+     * 如果数据小于或等于其中一个位置，则两个位置的数据不变，
+     * 若大于，则交换
      */
     private static void selectionSort (int[] data){
         int tem;  //临时变量
@@ -102,7 +118,7 @@ public class 排序再总结 {
     /**
      * 希尔排序
      * D.L.Shell 在 1959年7月发明的一种排序
-     * 时间复杂度达到O(n^1.5)
+     * 时间复杂度达到O(n^1.3)
      * 有点像插入排序，将数据区分成特定间隔的几个小块，以插入排序法排完
      * 区块内的数据后再渐渐减少间隔距离
      */
@@ -187,50 +203,50 @@ public class 排序再总结 {
      *1.建初始堆：将R[1..n]构造为初始堆；
      *2.堆调整：将当前无序区的堆顶记录R[1]和该区间的最后一个记录交换，然后将新的无序区调整为堆。
      */
-    public static void buildHeap(int a[]) {
-        int heapSize = a.length;
-        int filter = heapSize / 2;
-        // i从第一个非叶子结点开始
-        for (int i = filter - 1; i >= 0; i--) {
-            heapAdjust(a, i, heapSize);
-        }
-    }
-
-    // 已知H.r[i...heapSize]中记录的关键字除H.r[i]外，均满足最大堆结构
-    public static void heapAdjust(int arr[], int i, int heapSize) {
-        // 当前待调整的元素
-        int tmp = arr[i];
-        // 该元素的左孩子
-        int index = 2 * i + 1;
-        while (index < heapSize) {
-            // 如果右孩子大于左孩子,则index+1，即交换右孩子和双亲节点
-            if (index + 1 < heapSize && arr[index] < arr[index + 1]) {
-                index = index + 1;
-            }
-            if (arr[i] < arr[index]) {
-                arr[i] = arr[index];// 交换孩子和双亲节点
-                i = index;// 重新赋初值
-                index = 2 * i + 1;
-            }
-            else {
-                break;// 已经是最大堆
-            }
-            arr[i] = tmp;// 把双亲值赋给孩子节点
-        }
-    }
-
     public static void heapSort(int a[]) {
         int heapSize = a.length;
+        int nonLeaf = heapSize / 2;
+        //初始建最大堆
+        // i从第一个非叶子结点开始
+        for (int i = nonLeaf - 1; i >= 0; i--) {
+            heapAdjust(a, i, heapSize);
+        }
+
+        //堆排序
         for (int i = heapSize - 1; i > 0; i--) {
             // 交换堆顶和最后一个元素
             int tmp = a[0];
             a[0] = a[i];
             a[i] = tmp;
             // 在heapSize范围内根结点的左右子树都已经是最大堆,所以只需看新交换的堆顶元素是否满足最大堆结构即可。
-            // 将H.r[0...i]重新调整为最大堆
+            // 将H.r[0...i-1]重新调整为最大堆
             heapAdjust(a, 0, i);
         }
     }
+
+    // 已知H.r[i...heapSize-1]中记录的关键字除H.r[i]外，均满足最大堆结构
+    public static void heapAdjust(int arr[], int i, int heapSize) {
+        // 当前待调整的元素
+        int tmp = arr[i];
+        // 该元素的左孩子
+        int index = 2 * i + 1;
+        while (index < heapSize) {
+            // 如果有右孩子且大于左孩子,则index+1，即交换右孩子和双亲节点
+            if (index + 1 < heapSize && arr[index] < arr[index + 1]) {
+                index = index + 1;
+            }
+            if (arr[i] < arr[index]) {
+                arr[i] = arr[index];// 交换孩子和父节点
+                i = index;// 重新赋初值
+                index = 2 * i + 1;
+            }
+            else {
+                break;// 已经是最大堆
+            }
+            arr[i] = tmp;// 把父节点值赋给孩子节点
+        }
+    }
+
 
     /**
      * 归并排序
@@ -274,9 +290,9 @@ public class 排序再总结 {
      */
     private static void radixSort(int[] data) {
         int size = data.length;
-        int k;
         int n;
         int m;
+        int k;
         for (n = 1;n<=100;n = n*10) { //n为基数 从个位开始排序
             //设定暂存数组，[0~9位数][数据个数]，所有内容均为0
             int[][] tem = new int[10][100];

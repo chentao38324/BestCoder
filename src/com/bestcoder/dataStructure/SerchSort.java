@@ -26,10 +26,10 @@ public class SerchSort {
 //        showData(arry,"选择排序:");
 //        serchSort.insertSort(arry);
 //        showData(arry,"插入排序:");
-        serchSort.shellSort(arry);
-        showData(arry,"希尔排序:");
-//        serchSort.quickSort(arry);
-//        showData(arry,"快速排序:");
+//        serchSort.shellSort(arry);
+//        showData(arry,"希尔排序:");
+        serchSort.quickSort(arry);
+        showData(arry,"快速排序:");
 //        serchSort.heapSort(arry);
 //        showData(arry,"堆排序:");
 //        serchSort.mergeSort(arry);
@@ -51,10 +51,10 @@ public class SerchSort {
     /**
      * 二分查找
      * 数据必须排序好
-     * Ｏ(logn)
+     * 时间复杂度 Ｏ(logn)
      * @param data 数组
      * @param val 要查找的值
-     * @return 键 返回－１未找到
+     * @return 索引 返回－１未找到
      */
     private int binSerch(int[] data,int val){
         int low = 0;
@@ -287,7 +287,7 @@ public class SerchSort {
      * 2.由左向右找出一个键值Ki 使得Ki>K
      * 3.由右向左找出一个键值Kj 使得Kj<K
      * 4.若i<j 则Ki与Kj交换，并继续步骤2
-     * 5.若i>=j 则将K与Kj交换，并以j为记住将数据分为左右两部分，
+     * 5.若i>=j 则将K与Kj交换，并以j为基准 将数据分为左右两部分，
      * 以递归方式分别对左右两边进行排序，直至完成排序
      *
      * 时间复杂度 最好和平均为O(nlogn) 最坏O(n²)-每次选的中间值为最大或最小
@@ -341,7 +341,7 @@ public class SerchSort {
             if (l >= r) {  //5-1 若l >= r
                 tem = data[left];   //则交换 data[left] 和 data[r]
                 data[left] = data[r];
-                data[r] = tem;
+                data[r] = tem;          //这个r可以利用好，左边是小于它右边是大于，data[r]是第r大的数
                 //5-2 并以r为基准点分成两半，递归排序
                 quickSort(data, left, r - 1);
                 quickSort(data, r + 1, right);
@@ -360,7 +360,7 @@ public class SerchSort {
      */
     public void heapSort(int[] data){
         int heapSize = data.length;
-        int nonLeaf = heapSize/2;
+        int nonLeaf = heapSize/2; //第一个非叶子节点
         int tem;
         //初始建最大堆
         for (int i = nonLeaf - 1; i >= 0 ; i--){
@@ -468,12 +468,20 @@ public class SerchSort {
 
     /**
      * 基数排序
+     * 这里是最低位优先，按个位十位百位来比较，
+     * 1.把每个整数按照其个位数字放到表中，
+     * 2.合并
+     * 3.循环,再按照十位数字，百位数字
+     *
+     * 时间复杂度 O(nlogpK)
+     * 空间复杂度O(n*p)
+     * p是基数 100基数为3 k是原始数据最大值
      * @param data
      */
     public void radixSort(int[] data){
         int len = data.length;
         int n;  //数的哪一位 个位  十位等
-        int m;  //每个桶的标号 0-9
+        int m;  //每个块的标号 0-9
         int k;  //每次将临时数组放回原数组 的索引
         for ( n = 1; n <= 100 ; n*=10) {    //n为基数 从个位开始排序 100代表数字都为3位数 数组中最大数字的位数
             //设定暂存数组，[0~9位数][数据个数]，所有内容均为0
@@ -482,11 +490,12 @@ public class SerchSort {
                 m = (data[i]/n)%10;     //m为n位数的值
                 tem[m][i] = data[i];    //把data[i]的值暂存在tem里
             }
+            //遍历临时数组中的值放回原数组
             k = 0;
             for (int i = 0; i < 10; i++) {
                 for (int j = 0; j < len; j++) {
                     if (tem[i][j] != 0){
-                        data[k++] = tem[i][j];  //临时数组中的值放回原数组
+                        data[k++] = tem[i][j];
                     }
                 }
             }

@@ -11,13 +11,13 @@ public class _6_3二叉树序列化 {
         _6_3二叉树序列化 instant = new _6_3二叉树序列化();
         //根据字符串反序列化二叉树
         String str = "12!3!#!#!#!";
-        TreeNode2 node = instant.deserialization(str);
+        TreeNode node = instant.deserialization(str);
         //序列化
         String string = serialize(node);
         System.out.println(string);
     }
 
-    private static String serialize(TreeNode2 root) {
+    private static String serialize(TreeNode root) {
         if (root == null){
             return "#!";
         }
@@ -29,29 +29,30 @@ public class _6_3二叉树序列化 {
     }
 
     public int index = -1;
-    private TreeNode2 deserialization(String str) {
+    private TreeNode deserialization(String str) {
         index++;
         int len = str.length();
         if (index >= len){
             return null;
         }
-        TreeNode2 node = null;
+        TreeNode node = null;
         String[] strArray = str.split("!");
         if (!strArray[index].equals("#")) {
-            node = new TreeNode2(Integer.valueOf(strArray[index]));
+            node = new TreeNode(Integer.valueOf(strArray[index]));
             node.left = deserialization(str);
             node.right = deserialization(str);
         }
         return node;
     }
-}
+    private static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
-class TreeNode2 {
-    int val;
-    TreeNode2 left;
-    TreeNode2 right;
-
-    public TreeNode2(int val){
-        this.val = val;
+        public TreeNode(int val){
+            this.val = val;
+        }
     }
 }
+
+

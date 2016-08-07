@@ -10,18 +10,11 @@ import java.util.Queue;
  * 牛课堂的算法题
  * 层序遍历二叉树 并转换成二维数组返回
  */
-class TreeNode1 {
-    int val = 0;
-    TreeNode1 left = null;
-    TreeNode1 right = null;
-    public TreeNode1(int val) {
-        this.val = val;
-    }
-}
+
 public class _6_1二叉树存储_树 {
     public static void main(String[] args) {
         int[] array = new int[]{6,3,5,9,7,8,4,2};
-        TreeNode1 rootNode = linkListShow(array);
+        TreeNode rootNode = linkListShow(array);
         /**
          * 除了下面这行其他都是构建链表 打印等
          */
@@ -47,13 +40,13 @@ public class _6_1二叉树存储_树 {
      * 链表构建二叉树 不是本题重点
      * @param array
      */
-    private static TreeNode1 linkListShow(int[] array) {
-        TreeNode1 rootNode = null;  //二叉树根节点
+    private static TreeNode linkListShow(int[] array) {
+        TreeNode rootNode = null;  //二叉树根节点
         for (int i = 0; i < array.length; i++) {
-            TreeNode1 currentNode = rootNode;
+            TreeNode currentNode = rootNode;
             //根节点为空 建立根节点并返回
             if (rootNode == null){
-                rootNode = new TreeNode1(array[i]);
+                rootNode = new TreeNode(array[i]);
             }else {
                 //建立二叉树
                 while (true) {
@@ -61,7 +54,7 @@ public class _6_1二叉树存储_树 {
                         //数组中的值大于当前节点的值
                         if (currentNode.right == null) {
                             //且右孩子为空，则该值构成右孩子
-                            currentNode.right = new TreeNode1(array[i]);
+                            currentNode.right = new TreeNode(array[i]);
                             break;
                         } else {
                             //否则继续往右孩子比较
@@ -70,7 +63,7 @@ public class _6_1二叉树存储_树 {
                     } else {
                         //该值小于等于当前值就往左比较 同样的
                         if (currentNode.left == null) {
-                            currentNode.left = new TreeNode1(array[i]);
+                            currentNode.left = new TreeNode(array[i]);
                             break;
                         } else {
                             currentNode = currentNode.left;
@@ -89,11 +82,11 @@ public class _6_1二叉树存储_树 {
      * 思路：其实就是在层序遍历的基础上改了下
      *
      */
-    public static int[][] printTree(TreeNode1 root) {
+    public static int[][] printTree(TreeNode root) {
         // write code here
-        Queue<TreeNode1> queue = new LinkedList<>();
-        TreeNode1 last = root;
-        TreeNode1 nLast = root;
+        Queue<TreeNode> queue = new LinkedList<>();
+        TreeNode last = root;
+        TreeNode nLast = root;
         List<Integer> layerSaveList = new ArrayList<>();
         int i = 0;
         List<List<Integer>> allSaveList = new ArrayList<>();
@@ -101,7 +94,7 @@ public class _6_1二叉树存储_树 {
         int[][] allSave;
         queue.add(root);
         while(!queue.isEmpty()){
-            TreeNode1 tem = queue.poll();
+            TreeNode tem = queue.poll();
             layerSaveList.add(i++,tem.val);
             if(tem.left != null){
                 queue.add(tem.left);
@@ -130,6 +123,15 @@ public class _6_1二叉树存储_树 {
             }
         }
         return allSave;
+    }
+
+    private static class TreeNode {
+        int val = 0;
+        TreeNode left = null;
+        TreeNode right = null;
+        public TreeNode(int val) {
+            this.val = val;
+        }
     }
 
     /**

@@ -66,20 +66,22 @@ public class _6重建二叉树_树 {
             System.out.print("["+node.value+"]");
         }
     }
+
+    private static class TreeNode {
+        int value;
+        TreeNode leftNode;
+        TreeNode rightNode;
+
+        public TreeNode(int value){
+            this.value = value;
+        }
+        public TreeNode(int value,TreeNode leftNode,TreeNode rightNode){
+            this.value = value;
+            this.leftNode = leftNode;
+            this.rightNode = rightNode;
+        }
+
+    }
 }
 
-class TreeNode {
-    int value;
-    TreeNode leftNode;
-    TreeNode rightNode;
 
-    public TreeNode(int value){
-        this.value = value;
-    }
-    public TreeNode(int value,TreeNode leftNode,TreeNode rightNode){
-        this.value = value;
-        this.leftNode = leftNode;
-        this.rightNode = rightNode;
-    }
-
-}

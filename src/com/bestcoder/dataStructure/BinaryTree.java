@@ -115,6 +115,10 @@ public class BinaryTree {
     /**
      * 二叉搜索树 的搜索
      * 懂排序就可以理解搜索，只需要在二叉树中比较树根及要搜索的值，再按大小原则递归遍历
+     * 二叉搜索树定义：
+     * 要么是一棵空树
+     * 如果不为空，那么其左子树节点的值“都”小于根节点的值；右子树节点的值“都”大于根节点的值
+     * 其左右子树也是二叉搜索树
      * @param node
      * @param value
      * @return
@@ -136,7 +140,7 @@ public class BinaryTree {
     }
 
     /**
-     * 链表构建的二叉树的中序遍历 递归实现
+     * 链表构建的二叉树的 中序遍历 递归实现
      * @param node
      */
     public static void inOrder(TreeNode node){
@@ -148,7 +152,7 @@ public class BinaryTree {
     }
 
     /**
-     * 表构建的二叉树的前序遍历 递归实现
+     * 表构建的二叉树的 前序遍历 递归实现
      * @param node
      */
     public static void preOrder(TreeNode node){
@@ -160,7 +164,7 @@ public class BinaryTree {
     }
 
     /**
-     * 表构建的二叉树的后序遍历 递归实现
+     * 表构建的二叉树的 后序遍历 递归实现
      * @param node
      */
     public static void postOrder(TreeNode node){
@@ -190,9 +194,10 @@ public class BinaryTree {
 
     /**
      * 层序遍历并且按层换行
-     * 准备一个队列 last和nLast变量
+     * 准备一个队列 , last和nLast变量(TreeNode变量)
      * 思路：首先让last=根节点，然后出队列（现在出的是根节点），
-     * 同时将根节点的左右子节点入队列（nLast=左子节点再=右子节点，就是说nLast一直跟随当前新加入的节点，就是下一行的最右节点）
+     * 同时将根节点的左右子节点入队列（nLast=左子节点再=右子节点，就是说nLast一直跟随当前新加入的节点，
+     * 就是下一行的最右节点）
      * 然后比较last如果==出队列的节点就换行，并令last=nLast.
      * @param node
      */
@@ -225,7 +230,7 @@ public class BinaryTree {
     /**
      * 二叉树的节点类
      */
-    static class TreeNode {
+    private static class TreeNode {
         int value;
         TreeNode leftNode;
         TreeNode rightNode;

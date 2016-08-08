@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 /**
  * Created by chentao on 16-8-2.
+ *
  */
 public class 层序遍历二叉树正反向输出 {
     private static List<Node> nodeList = null;
@@ -69,17 +70,15 @@ public class 层序遍历二叉树正反向输出 {
                 q.add(root.right);
         }
     }
-}
+    private static class Node {
+        int data;
+        Node left;
+        Node right;
 
-
-class Node {
-    int data;
-    Node left;
-    Node right;
-
-    Node(int newData) {
-        left = null;
-        right = null;
-        data = newData;
+        Node(int newData) {
+            left = null;
+            right = null;
+            data = newData;
+        }
     }
 }

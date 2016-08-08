@@ -2,18 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5432cc5-972b-44a8-922d-cf9482f795a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestcoder/dataStructure/SerchSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_3二叉树序列化.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_7用两个栈实现队列.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6二叉树存储_树.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/ContinueBreakReturn.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/C语言编程1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Dijitain2005.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Duoxiangshiqiuhe2011.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/GraphLink.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Hotel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/I加加与加加I的区别.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Jueduizhipaixu2020.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Liangdianjuli2001.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Main2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Muniu2018.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/No2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/No3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/No5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Oushuqiuhe2015.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Pantaoji2013.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Person.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Pinfangyulifanghe2007.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Qiujishuchengji2006.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Qiujueduizhi2003.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/ShuJuJiaoHuanShuChu2016.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Shuixianhuashu2010.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Shuliehe2009.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Suanqiutiji2002.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Sushupanduan2012.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/TT2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/TTT.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Test.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Zhaofushuzhengshugeshu2008.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Zhuanhuanchengji2004.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/Zifuchuantongji2017.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/CQueue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/CStack.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/TreeNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/TreeNode1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/TreeNode2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/iArray.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/tt2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/一战通offer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/一战通offer二.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/一站通offer一.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/一站通offer三.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/值传递和引用传递.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/偶数大翻转_乐视.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/免费馅饼1176.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/噪声传感器.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/循环控制continue和break.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/排序1106.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/排序再总结.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/畅通工程1232.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/相邻矩阵法构建图.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/相邻表法建图.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/砍板凳腿.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/粘贴在这.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/统计难题1251.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/统计难题1251trie树实现$TrieNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/统计难题1251trie树实现.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/网易内推笔试/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/考试时间分配.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/阿里笔试.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/魔方.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/bestcoder/C语言编程1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/bestcoder/I加加与加加I的区别.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/bestcoder/相邻表法建图.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/dataStructure/BinaryTree$TreeNode.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/dataStructure/BinaryTree$TreeNode.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/dataStructure/BinaryTree.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/dataStructure/BinaryTree.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/TreeNode1.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/TreeNode1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_5从尾到头打印链表_链表.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_5从尾到头打印链表_链表.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6_2ArrayList测试.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6_2ArrayList测试.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/dataStructure/SerchSort.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/dataStructure/SerchSort.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6_1二叉树存储_树.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6_1二叉树存储_树.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6_3二叉树序列化.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6_3二叉树序列化.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6重建二叉树_树.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_6重建二叉树_树.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_7用两个栈实现队列.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/everydayAlgorithm/_7用两个栈实现队列.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/网易内推笔试/Main.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/网易内推笔试/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/网易内推笔试/层序遍历二叉树正反向输出.class" afterPath="$PROJECT_DIR$/out/production/BestCoder/com/bestcoder/网易内推笔试/层序遍历二叉树正反向输出.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bestcoder/dataStructure/BinaryTree.java" afterPath="$PROJECT_DIR$/src/com/bestcoder/dataStructure/BinaryTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bestcoder/噪声传感器.java" afterPath="$PROJECT_DIR$/src/com/bestcoder/噪声传感器.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bestcoder/排序再总结.java" afterPath="$PROJECT_DIR$/src/com/bestcoder/排序再总结.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/Main.java" afterPath="$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/层序遍历二叉树正反向输出.java" afterPath="$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/层序遍历二叉树正反向输出.java" />
     </list>
     <ignored path="BestCoder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,25 +108,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="排序再总结.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bestcoder/排序再总结.java">
+      <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="132" column="28" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
+            <state vertical-scroll-proportion="1.1639723">
+              <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SerchSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/SerchSort.java">
+      <file leaf-file-name="_23从上往下打印二叉树.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_23从上往下打印二叉树.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28817204">
-              <caret line="27" column="31" selection-start-line="26" selection-start-column="35" selection-end-line="27" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
-                <element signature="e#7501#7502#0" expanded="true" />
-                <element signature="e#7548#7549#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_24二叉搜索树的后序遍历.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_24二叉搜索树的后序遍历.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,32 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/bestcoder/值传递和引用传递.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/reflect/A.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/reflect/B.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/reflect/SampleConstructor.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/reflect/SampleInterface.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/reflect/SampleMethod.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/reflect/LoadMethod.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/threadlocaltest/TestNum.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/同步问题/SyncThreadTest.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/同步问题/Bank.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/thread/RunnableFutureTask.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/同步问题/程不安全的HashMap.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/kmp/KMP.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/kmp/KmpTest.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/两字符串旋转.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/socketProgramming/Server.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/socketProgramming/Client.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/socketProgramming/Client1.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/socketProgramming/ServerThread.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/socketProgramming/Server1.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/designPatterns/SingletonLazyMan.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/designPatterns/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/designPatterns/Singleton3.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/designPatterns/Singleton2.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/designPatterns/Singleton4.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/designPatterns/SingletonEnum.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/二维数组中的查找.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/排序数组合并.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/替换空格.java" />
@@ -126,20 +176,46 @@
         <option value="$PROJECT_DIR$/src/com/bestcoder/dataStructure/Node2.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/从尾到头打印链表.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_5从尾到头打印链表.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/层序遍历二叉树正反向输出.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/Main.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_2ArrayList测试.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6重建二叉树_树.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6二叉树存储_树.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_1二叉树存储_树.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_5从尾到头打印链表_链表.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_3二叉树序列化.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_7用两个栈实现队列.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/噪声传感器.java" />
-        <option value="$PROJECT_DIR$/src/com/bestcoder/dataStructure/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/排序再总结.java" />
         <option value="$PROJECT_DIR$/src/com/bestcoder/dataStructure/SerchSort.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_8旋转数组的最小数字.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_9Fibonacci数列.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_10二进制中1的个数.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_11数值的整数次方.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/dataStructure/CodePractice.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_12打印1到最大的n位数.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_13在O1时间删除链表结点.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_调整数组顺序使奇数位于偶数前面.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_15链表中倒数第K个结点.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_16反转链表.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_17合并两个排序的链表.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6重建二叉树_树.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_3二叉树序列化.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_7用两个栈实现队列.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_1二叉树存储_树.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_18树的子结构.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/层序遍历二叉树正反向输出.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/一站通offer三.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/值传递和引用传递.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/相邻表法建图.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/I加加与加加I的区别.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/CVTE内推笔试/删除有序链表中重复节点.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_19二叉树的镜像.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_20顺时针打印矩阵.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_21包含main函数的栈.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/StackWithMin.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/Item21.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_21包含min函数的栈.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_22栈的压入弹出序列.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_23从上往下打印二叉树.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_24二叉搜索树的后序遍历.java" />
+        <option value="$PROJECT_DIR$/src/com/bestcoder/dataStructure/BinaryTree.java" />
       </list>
     </option>
   </component>
@@ -167,7 +243,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -186,8 +262,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,156 +316,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="网易内推笔试" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="thread" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="everydayAlgorithm" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_7用两个栈实现队列.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="everydayAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_6重建二叉树_树.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="everydayAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_6_3二叉树序列化.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="everydayAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BestCoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bestcoder" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="everydayAlgorithm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_6_1二叉树存储_树.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -438,133 +364,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BestCoder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BestCoder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bestcoder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CVTE内推笔试" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/chentao/IdeaProjects/BestCoder/src/com/bestcoder/confusionCode/Oushuqiuhe2015.java" />
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
-  <component name="RunManager" selected="Application.SerchSort">
-    <configuration default="false" name="_6_1二叉树存储_树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application._22栈的压入弹出序列">
+    <configuration default="false" name="I加加与加加I的区别" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bestcoder.confusionCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bestcoder.I加加与加加I的区别" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BestCoder" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="删除有序链表中重复节点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.bestcoder.CVTE内推笔试.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.bestcoder.CVTE内推笔试.删除有序链表中重复节点" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BestCoder" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="_20顺时针打印矩阵" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.bestcoder.everydayAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bestcoder.everydayAlgorithm._6_1二叉树存储_树" />
+      <option name="MAIN_CLASS_NAME" value="com.bestcoder.everydayAlgorithm._20顺时针打印矩阵" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -577,14 +460,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="_6_3二叉树序列化" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="_21包含min函数的栈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.bestcoder.everydayAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bestcoder.everydayAlgorithm._6_3二叉树序列化" />
+      <option name="MAIN_CLASS_NAME" value="com.bestcoder.everydayAlgorithm._21包含min函数的栈" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -597,54 +480,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="_7用两个栈实现队列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="_22栈的压入弹出序列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.bestcoder.everydayAlgorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bestcoder.everydayAlgorithm._7用两个栈实现队列" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BestCoder" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SerchSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bestcoder.dataStructure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bestcoder.dataStructure.SerchSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BestCoder" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="排序再总结" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.bestcoder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.bestcoder.排序再总结" />
+      <option name="MAIN_CLASS_NAME" value="com.bestcoder.everydayAlgorithm._22栈的压入弹出序列" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1068,19 +911,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application._6_1二叉树存储_树" />
-      <item index="1" class="java.lang.String" itemvalue="Application._6_3二叉树序列化" />
-      <item index="2" class="java.lang.String" itemvalue="Application._7用两个栈实现队列" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SerchSort" />
-      <item index="4" class="java.lang.String" itemvalue="Application.排序再总结" />
+      <item index="0" class="java.lang.String" itemvalue="Application.I加加与加加I的区别" />
+      <item index="1" class="java.lang.String" itemvalue="Application.删除有序链表中重复节点" />
+      <item index="2" class="java.lang.String" itemvalue="Application._20顺时针打印矩阵" />
+      <item index="3" class="java.lang.String" itemvalue="Application._21包含min函数的栈" />
+      <item index="4" class="java.lang.String" itemvalue="Application._22栈的压入弹出序列" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SerchSort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.排序再总结" />
-        <item index="2" class="java.lang.String" itemvalue="Application._7用两个栈实现队列" />
-        <item index="3" class="java.lang.String" itemvalue="Application._6_3二叉树序列化" />
-        <item index="4" class="java.lang.String" itemvalue="Application._6_1二叉树存储_树" />
+        <item index="0" class="java.lang.String" itemvalue="Application._22栈的压入弹出序列" />
+        <item index="1" class="java.lang.String" itemvalue="Application._21包含min函数的栈" />
+        <item index="2" class="java.lang.String" itemvalue="Application._20顺时针打印矩阵" />
+        <item index="3" class="java.lang.String" itemvalue="Application.删除有序链表中重复节点" />
+        <item index="4" class="java.lang.String" itemvalue="Application.I加加与加加I的区别" />
       </list>
     </recent_temporary>
   </component>
@@ -1120,7 +963,8 @@
       <workItem from="1469160028712" duration="4942000" />
       <workItem from="1469330235849" duration="7626000" />
       <workItem from="1469785282732" duration="17734000" />
-      <workItem from="1469947744865" duration="122459000" />
+      <workItem from="1469947744865" duration="167787000" />
+      <workItem from="1470522759295" duration="46636000" />
     </task>
     <task id="LOCAL-00001" summary="增加链表的多种实现，增加从头到尾打印链表的算法 利用栈和递归实现">
       <created>1470128184537</created>
@@ -1128,11 +972,59 @@
       <option name="project" value="LOCAL" />
       <updated>1470128184541</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="旋转数组的最小数字 单个文件提交">
+      <created>1470447814007</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1470447814007</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fibonacci数列和二进制中1的个数 两道算法">
+      <created>1470456450757</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1470456450757</updated>
+    </task>
+    <task id="LOCAL-00004" summary="数值的整数次方 打印1到最大的n位整数 在O（1）时间删除链表节点">
+      <created>1470498429773</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1470498429773</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改">
+      <created>1470498469567</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1470498469567</updated>
+    </task>
+    <task id="LOCAL-00006" summary="将部分外部类 改成内部类 增加私有性">
+      <created>1470559377164</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1470559377164</updated>
+    </task>
+    <task id="LOCAL-00007" summary="增加下午练习的算法 包括调整数组顺序使奇数位于偶数前面、链表中倒数第K个节点、反转链表、合并两个排序的链表、&#10;树的子结构等">
+      <created>1470559699718</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1470559699718</updated>
+    </task>
+    <task id="LOCAL-00008" summary="无关代码清理">
+      <created>1470561087673</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1470561087673</updated>
+    </task>
+    <task id="LOCAL-00009" summary="二叉搜索树定义">
+      <created>1470647198549</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1470647198549</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314158000" />
+    <option name="totallyTimeSpent" value="406122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1145,7 +1037,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1154,22 +1046,22 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22464898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22464898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27457097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20516717" sideWeight="0.49304175" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20516717" sideWeight="0.49295774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33385336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20516717" sideWeight="0.50695825" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20516717" sideWeight="0.5070422" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.349454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33385336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1184,16 +1076,16 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22464898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27457097" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20516717" sideWeight="0.49304175" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20516717" sideWeight="0.49295774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33385336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20516717" sideWeight="0.50695825" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20516717" sideWeight="0.5070422" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.349454" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1210,14 +1102,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加链表的多种实现，增加从头到尾打印链表的算法 利用栈和递归实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加链表的多种实现，增加从头到尾打印链表的算法 利用栈和递归实现" />
+    <MESSAGE value="旋转数组的最小数字 单个文件提交" />
+    <MESSAGE value="Fibonacci数列和二进制中1的个数 两道算法" />
+    <MESSAGE value="数值的整数次方 打印1到最大的n位整数 在O（1）时间删除链表节点" />
+    <MESSAGE value="修改" />
+    <MESSAGE value="将部分外部类 改成内部类 增加私有性" />
+    <MESSAGE value="增加下午练习的算法 包括调整数组顺序使奇数位于偶数前面、链表中倒数第K个节点、反转链表、合并两个排序的链表、&#10;树的子结构等" />
+    <MESSAGE value="无关代码清理" />
+    <MESSAGE value="二叉搜索树定义" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉搜索树定义" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="125" />
+      <option name="time" value="133" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1226,418 +1126,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/reflect/B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/threadlocaltest/TestNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_60/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="546" column="11" selection-start-line="546" selection-start-column="11" selection-end-line="546" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/同步问题/SyncThreadTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/reflect/SampleConstructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/reflect/SampleInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/reflect/SampleMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/偶数大翻转_乐视.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/同步问题/程不安全的HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7879925">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/thread/RunnableFutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039399624">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/同步问题/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6454034">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_60/src.zip!/java/lang/StringIndexOutOfBoundsException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7241379">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
-          <folding>
-            <element signature="e#1439#1440#0" expanded="false" />
-            <element signature="e#1499#1500#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_60/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52915764">
-          <caret line="657" column="42" selection-start-line="657" selection-start-column="42" selection-end-line="657" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/kmp/KMP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="75" column="35" selection-start-line="74" selection-start-column="8" selection-end-line="75" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/kmp/KmpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/socketProgramming/Server1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/socketProgramming/ServerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/socketProgramming/Client1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/designPatterns/Singleton3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="e#676#677#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/designPatterns/Singleton2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#480#481#0" expanded="false" />
-            <element signature="e#511#512#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/designPatterns/SingletonEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/阿里笔试.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/TT2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/TTT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6315789">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_4替换空格_字符串.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_4_1排序数组合并.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_60/src.zip!/java/lang/SuppressWarnings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33112583">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/List2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/LinkList1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/LinkList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="21" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="21" />
-          <folding>
-            <element signature="e#2099#2100#0" expanded="false" />
-            <element signature="e#2131#2132#0" expanded="false" />
-            <element signature="e#2178#2179#0" expanded="false" />
-            <element signature="e#2215#2216#0" expanded="false" />
-            <element signature="e#3059#3060#0" expanded="false" />
-            <element signature="e#3099#3100#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/LinkList2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_4_2两字符串旋转.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="51" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_3二维数组中的查找_数组.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/designPatterns/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/jdk1.8.0_60/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="456" column="19" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/层序遍历二叉树正反向输出.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1642#1648#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_2ArrayList测试.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/Node2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6重建二叉树_树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#2278#2279#0" expanded="false" />
-            <element signature="e#2312#2313#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_1二叉树存储_树.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_5从尾到头打印链表_链表.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_3二叉树序列化.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#1368#1369#0" expanded="true" />
-            <element signature="e#1398#1399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_7用两个栈实现队列.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1147#1148#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/噪声传感器.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/噪声传感器.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4827586">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
@@ -1645,17 +1134,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="47" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/排序再总结.java">
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/排序再总结.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="132" column="28" selection-start-line="132" selection-start-column="28" selection-end-line="132" selection-end-column="28" />
@@ -1663,14 +1142,421 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_8旋转数组的最小数字.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_9Fibonacci数列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_10二进制中1的个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_11数值的整数次方.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_13在O1时间删除链表结点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03448276">
+          <caret line="136" column="21" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="21" />
+          <folding>
+            <element signature="e#3059#3060#0" expanded="false" />
+            <element signature="e#3099#3100#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_12打印1到最大的n位数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03448276">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/CodePractice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <element signature="e#149#150#0" expanded="false" />
+            <element signature="e#196#197#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/SerchSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28817204">
-          <caret line="27" column="31" selection-start-line="26" selection-start-column="35" selection-end-line="27" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="453" column="19" selection-start-line="453" selection-start-column="19" selection-end-line="453" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_14调整数组顺序使奇数位于偶数前面.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
           <folding>
-            <element signature="e#7501#7502#0" expanded="true" />
-            <element signature="e#7548#7549#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_15链表中倒数第K个结点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="60" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_16反转链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6重建二叉树_树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding>
+            <element signature="e#2311#2312#0" expanded="false" />
+            <element signature="e#2353#2354#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_3二叉树序列化.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+          <folding>
+            <element signature="e#1391#1392#0" expanded="false" />
+            <element signature="e#1429#1430#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_7用两个栈实现队列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
+          <folding>
+            <element signature="e#1228#1229#0" expanded="false" />
+            <element signature="e#1268#1269#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_60/src.zip!/javax/swing/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5032258">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_17合并两个排序的链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/网易内推笔试/层序遍历二叉树正反向输出.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <folding>
+            <element signature="e#1645#1651#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/一站通offer三.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/值传递和引用传递.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="123" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/相邻表法建图.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/Dijitain2005.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/ContinueBreakReturn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/Duoxiangshiqiuhe2011.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/Jueduizhipaixu2020.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/Liangdianjuli2001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/No2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/No3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/No5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.048498847">
+          <caret line="8" column="25" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/TT2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4064665">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/tt2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4180138">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_5从尾到头打印链表_链表.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_6_1二叉树存储_树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.38799077">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_18树的子结构.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/TTT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/CVTE内推笔试/删除有序链表中重复节点.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#1516#1517#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_19二叉树的镜像.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/confusionCode/Oushuqiuhe2015.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31612903">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_20顺时针打印矩阵.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/jdk1.8.0_60/jre/lib/rt.jar!/java/util/Stack.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_21包含min函数的栈.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_22栈的压入弹出序列.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_23从上往下打印二叉树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/everydayAlgorithm/_24二叉搜索树的后序遍历.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bestcoder/dataStructure/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1639723">
+          <caret line="112" column="5" selection-start-line="112" selection-start-column="5" selection-end-line="112" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

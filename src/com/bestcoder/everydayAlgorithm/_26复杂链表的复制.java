@@ -23,6 +23,13 @@ package com.bestcoder.everydayAlgorithm;
  */
 public class _26复杂链表的复制 {
 
+    //总方法
+    public ListNode clone(ListNode head){
+        cloneNodes(head);
+        connectSiblingNodes(head);
+        return reconnectNodes(head);
+    }
+
     //第一步
     public static void cloneNodes(ListNode head){
         ListNode temNode = head;
@@ -49,12 +56,23 @@ public class _26复杂链表的复制 {
     }
 
     //第三步
-    public static void reconnectNodes(ListNode head){
+    public static ListNode reconnectNodes(ListNode head){
         ListNode temNode = head;
         ListNode clonedHead = null;
         ListNode clonedNode = null;
 
-        if (temNode)
+        if (temNode != null){
+            clonedHead = clonedNode = temNode.next;
+            temNode.next = clonedNode.next;
+            temNode = temNode.next;
+        }
+        while (temNode != null){
+            clonedNode.next = temNode.next;
+            clonedNode = clonedNode.next;
+            temNode.next = clonedNode.next;
+            temNode = temNode.next;
+        }
+        return clonedHead;
     }
 
     //复杂链表

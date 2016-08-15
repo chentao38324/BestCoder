@@ -10,11 +10,21 @@ public class _6_3二叉树序列化 {
     public static void main(String[] args) {
         _6_3二叉树序列化 instant = new _6_3二叉树序列化();
         //根据字符串反序列化二叉树
-        String str = "12!3!#!#!#!";
+        String str = "1!2!4!#!#!#!3!5!#!#!6!#!#!";
         TreeNode node = instant.deserialization(str);
+        print(node);
+        System.out.println("null");
         //序列化
         String string = serialize(node);
         System.out.println(string);
+    }
+
+    private static void print(TreeNode node) {
+        if (node!=null){
+            System.out.print(node.val + "-->");
+            print(node.left);
+            print(node.right);
+        }
     }
 
     private static String serialize(TreeNode root) {

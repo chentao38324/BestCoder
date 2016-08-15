@@ -14,7 +14,7 @@ package com.bestcoder.everydayAlgorithm;
  */
 public class _35第一个只出现一次的字符 {
     public static void main(String[] args){
-        String str = "aaccdefbfde#b";
+        String str = "goog";
         char result = firstNotReprtingChar(str);
         System.out.println(result);
         //相关题目3
@@ -24,7 +24,7 @@ public class _35第一个只出现一次的字符 {
     public static char firstNotReprtingChar(String str){
         if (str == null || str.equals(""))
             return '0';
-        char result = 0;
+        char result = '0';
         char[] array = str.toCharArray();
         int[] times = new int[256]; //辅助数组
         for (char item : array){

@@ -301,7 +301,7 @@ public class SerchSort {
     }
 
     /**
-     * 快速排序
+     * 快速排序         看下剑指offer上的？
      * @param data 数组
      * @param left  左边界
      * @param right 右边界

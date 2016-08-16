@@ -2,12 +2,13 @@ package com.bestcoder.everydayAlgorithm;
 
 /**
  * Created by chentao on 16-8-1.
+ * 题目：请实现一个函数，把字符串中的每个空格替换成"%20"，例如“We are happy.”，则输出“We%20are%20happy.”。
  */
 public class _4替换空格_字符串 {
     public static void main(String args[]) {
         String s = "We are happy.";
         char c_old[] = s.toCharArray();
-        // 为简单起见，我们假设给它一个新的空间，空间的大小组以存下替换后的字符
+        // 为简单起见，我们假设给它一个新的空间，空间的大小足以存下替换后的字符
         char c_new[] = new char[100];
         for (int i = 0; i < c_old.length; i++) {
             c_new[i] = c_old[i];

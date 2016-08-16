@@ -33,7 +33,7 @@ public class Singleton {
  * 这种方式是在调用getInstance方法的时候才创建对象的，所以它比较懒因此被称为懒汉式。
  *
  * 有多个线程去调用getInstance方法来获取Singleton的实例，那么就有可能发生这样一种情况
- * 当第一个线程在执行if(instance==null)这个语句时，此时instance是为null的进入语句。
+ * 当第一个线程在执行if(instance==null)这个语句时，此时instance是为null的,进入语句。
  * 在还没有执行instance=new Singleton()时(此时instance是为null的)
  * 第二个线程也进入if(instance==null)这个语句，因为之前进入这个语句的线程中还没有
  * 执行instance=new Singleton()，所以它会执行instance=new Singleton()来实例化Singleton对象，

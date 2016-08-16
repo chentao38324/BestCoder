@@ -46,7 +46,7 @@ public class SerchSort {
         }
     }
 
-    /**查找算法*/
+        /**========================查找算法========================*/
 
     /**
      * 二分查找
@@ -106,7 +106,7 @@ public class SerchSort {
     }
 
     /**
-     * 建立哈希表子程序
+     * 建立哈希表子程序--链表方式
      * @param val
      */
     private Node[] indextable = new Node[10];   //声明动态数组
@@ -119,7 +119,7 @@ public class SerchSort {
         }else {
             while (currentNode.next != null) currentNode = currentNode.next;
         }
-        currentNode.next = newNode;
+        currentNode.next = newNode; // 将节点加在表头后
     }
     /**
      * 哈希查找子程序
@@ -156,7 +156,7 @@ public class SerchSort {
         }
     }
 
-                                /**排序算法*/
+            /**===================排序算法=================*/
     /**
      * 冒泡排序
      *
@@ -181,6 +181,7 @@ public class SerchSort {
 
     /**
      * 改造后的冒泡排序
+     * 最好O(n)
      * @param data
      */
     public void bubuleSort2(int[] data){
@@ -301,18 +302,16 @@ public class SerchSort {
     }
 
     /**
-     * 快速排序         看下剑指offer上的？
+     * 快速排序         看下剑指offer上的？  也是递归实现的
      * @param data 数组
      * @param left  左边界
      * @param right 右边界
      */
     public void quickSort(int[] data,int left,int right){
         int tem;
-        int l;              //从左往右移动的键
-        int r;              //从右往左移动的键
+        int l = left +1;              //从左往右移动的键
+        int r = right;              //从右往左移动的键
         if (left<right) {
-            l = left + 1;
-            r = right;
             //开始比较 把比第一个大的放右边 小的放左边
             while (true) {
                 for (int i = l; i <= r; i++) {  //2.由左向右找出一个键值>data[left]者
@@ -473,9 +472,12 @@ public class SerchSort {
      * 2.合并
      * 3.循环,再按照十位数字，百位数字
      *
-     * 时间复杂度 O(nlogpK)
-     * 空间复杂度O(n*p)
-     * p是基数 100基数为3 k是原始数据最大值
+     * 步骤：从个位到百位的循环
+     *      里面设置临时二维数组放个位数字
+     *      然后遍历临时数组放回原数组
+     *
+     * 时间复杂度 O(k*n) 其中n是排序元素个数，k是数字位数; k决定了进行多少轮处理，而n是每轮处理的操作数目
+     * 空间复杂度O(10*n)=O(n)
      * @param data
      */
     public void radixSort(int[] data){

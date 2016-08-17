@@ -5,7 +5,9 @@ package com.bestcoder.everydayAlgorithm;
  * 旋转数组：将一个有序数组的前部分n个元素整体移动到数组后面 比如12345 旋转数组可以为 34512
  * 思路：二分查找 用两个指针i，j分别在两端，mid为中间索引 每次比较mid的值和 i，j。
  * >i，说明mid在mid在前边数组使 i=mid；<j,说明mid在后面数组 使 j=mid
- * 注意：n=0 还是有序数组  i，j，mid相等的情况
+ * 最终，i j会指向相邻的元素，j就是最小元素
+ * 注意：n=0 移动0个数到后面 还是有序数组
+ *      i，j，mid相等的情况
  */
 public class _8旋转数组的最小数字 {
     public static void main(String[] args){

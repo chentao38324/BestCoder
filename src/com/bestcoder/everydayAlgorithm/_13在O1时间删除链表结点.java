@@ -2,6 +2,8 @@ package com.bestcoder.everydayAlgorithm;
 
 /**
  * Created by chentao on 16-8-6.
+ * 题目：给定单向链表的头指针和一个节点指针，O(1)删除节点指针
+ *
  * 一般做法：O(n)从头遍历链表 发现结点h的next指针指向要删除的i结点，把h的next指针指向i的下一结点j
  *
  * 思路：O(1)不用遍历可以找到i节点的下一结点j，把j节点内容复制到要删除的i结点覆盖原有内容，
@@ -26,7 +28,7 @@ public class _13在O1时间删除链表结点 {
             return;
         }else {//删除尾节点
             ListNode preDeleteNode = pListHead;
-            while (preDeleteNode != pToBeDelete){
+            while (preDeleteNode.next != pToBeDelete){
                 preDeleteNode = preDeleteNode.next;
             }
             preDeleteNode.next = null;

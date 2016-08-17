@@ -13,13 +13,14 @@ package com.bestcoder.everydayAlgorithm;
 public class _9Fibonacci数列 {
     public static void main(String[] args){
         _9Fibonacci数列 instance = new _9Fibonacci数列();
+        int m = 40;
         long timeStart,timeEnd;
         timeStart = System.currentTimeMillis();
-        long n = instance.fibonacciInterative(40);
+        long n = instance.fibonacciInterative(m);
         timeEnd = System.currentTimeMillis();
         System.out.println("Fibonacci第40项循环实现："+n+" 运行时间(ms)："+(timeEnd-timeStart));
         timeStart = System.currentTimeMillis();
-        n = instance.fibonacciRecursive(40);//非常非常慢
+        n = instance.fibonacciRecursive(m);//非常非常慢
         timeEnd = System.currentTimeMillis();
         System.out.println("Fibonacci第40项递归实现："+n+" 运行时间(ms)："+(timeEnd-timeStart));
     }
@@ -31,7 +32,7 @@ public class _9Fibonacci数列 {
         long fn_1 = 1;
         long fn_2 = 0;
         long fn = 0;
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             fn = fn_1 + fn_2;
             fn_2 = fn_1;
             fn_1 = fn;
@@ -52,7 +53,7 @@ public class _9Fibonacci数列 {
         long fn_1 = 2;
         long fn_2 = 1;
         long fn = 0;
-        for (int i = 3; i < n; i++) {
+        for (int i = 3; i <= n; i++) {
             fn = fn_2 + fn_1;
             fn_2 = fn_1;
             fn_1 = fn;

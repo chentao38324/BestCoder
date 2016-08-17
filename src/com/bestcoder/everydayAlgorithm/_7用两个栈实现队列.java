@@ -6,7 +6,8 @@ import java.util.Stack;
 
 /**
  * Created by chentao on 16-8-4.
- *
+ *  题目：用两个栈实现一个队列。队列的声明如下，请实现它的两个函数appendTail 和deleteHead，
+ *       分别完成在队列尾部插入结点和在队列头部删除结点的功能。
  */
 public class _7用两个栈实现队列 {
     public static void main(String[] args){
@@ -29,11 +30,14 @@ public class _7用两个栈实现队列 {
         for (int i = 0; i < 3; i++) {
             System.out.print(cStack.deleteTop()+" ");
         }
-        cStack.deleteTop();
+//        cStack.deleteTop();
     }
 
     /**
      * 两个栈实现队列
+     * 入队：直接入栈1
+     *
+     * 出队：如果栈2为空，就把栈1全部移到栈2，出栈2
      * @param <T>
      */
     private static class CQueue<T> {
@@ -77,6 +81,10 @@ public class _7用两个栈实现队列 {
 
     /**
      * 两个队列实现栈
+     * 入栈：如果队列1不为空，就把队列1全部移动到队列2，其实移动之后两个队列顺序一样的
+     *      然后数据入队列1尾，
+     *      此时，如果队列2不为空，就把队列2元素移回队列1，此时新加入的的元素就在队列1头部，
+     * 出队：直接删除队列1的头即可
      * @param <T>
      */
     private static class CStack<T> {

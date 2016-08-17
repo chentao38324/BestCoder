@@ -2,6 +2,7 @@ package com.bestcoder.everydayAlgorithm;
 
 /**
  * Created by chentao on 16-8-8.
+ * 题目：请完成一个函数，输入一个二叉树，该函数输出它的镜像。
  *
  * 思路：前序遍历二叉树 遇到每个非叶子节点就交换它的两个子节点
  */

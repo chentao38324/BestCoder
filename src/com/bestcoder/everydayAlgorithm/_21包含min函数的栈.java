@@ -39,6 +39,9 @@ public class _21包含min函数的栈 {
 
         public int pop(){
             assert (dataStack.size() > 0 && minStack.size() > 0);//断言 true继续执行 false 报错
+//            if (minStack.isEmpty()){
+//                throw new RuntimeException("栈为空！");
+//            }
             minStack.pop();     //辅助栈中的元素也跟着pop 这样剩下的栈顶元素就是数据栈中最小的元素
             return dataStack.pop();
         }

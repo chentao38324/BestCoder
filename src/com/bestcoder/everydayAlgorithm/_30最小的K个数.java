@@ -10,14 +10,18 @@ import java.util.TreeSet;
  * 解法一：O(n) 可以修改输入的数组时可用
  *      用快排的思想
  *
- * 解法二：O(nlogk)使用TreeSet（基于红黑树的思路）
+ * 解法二：O(nlogk)使用TreeSet（基于红黑树的思路） 特别适合海量数据的输入
  *      在TreeSet中存储最小的k个数，遍历数组，如果容器没满，直接把这次读入的数插入，
  *      满了就替换已有的最大数
+ *
+ *      因此当容器满了之后，我们要做3 件事情： 一是在k 个整数中找到最大数：
+ *      二是有可能在这个容器中删除最大数： 三是有可能要插入一个新的数字。
+ *      使用TreeSet（基于红黑树的思路）可以实现
  */
 public class _30最小的K个数 {
     public static void main(String[] args){
         int[] array = {4,5,1,6,2,7,3,8};
-        getLeastNumbers(array,4);
+        getLeastNumbers(array,4);//解法一
 
         TreeSet<Integer> set = getLeastNumbers1(array,4);
         Iterator<Integer> it = set.iterator();
@@ -28,7 +32,7 @@ public class _30最小的K个数 {
         }
     }
 
-    //解法一
+    //解法一 O(n) 可以修改输入的数组时可用
     public static void getLeastNumbers(int[] input,int k){
         if (input == null || input.length == 0 || k > input.length)
             return;

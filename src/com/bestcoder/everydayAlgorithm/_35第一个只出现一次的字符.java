@@ -2,6 +2,7 @@ package com.bestcoder.everydayAlgorithm;
 
 /**
  * Created by chentao on 16-8-10.
+ * 题目：在字符串中找出第一个只出现一次的字符。
  *
  * 思路：用一个辅助数组（大小256所有的ASKII码） 数组大小是个常数 所以空间复杂度为O（1）
  *      第一次遍历 字符串中的每一个char字符对应的辅助数组中的位置++，时间O（n）
@@ -11,13 +12,14 @@ package com.bestcoder.everydayAlgorithm;
  * 1.输入两个字符串，从第一个字符串中删除在第二个字符串中出现过的字符
  *      思路：用上题的简单哈希存储第二个字符串，这样遍历第一个字符串的时候 能用O（1）时间判断该不该删除
  * 2.删除字符串中所有重复出现的字符 “google” -->“gole”
+ *      思路：用哈希数组存储booble变量，第一次遍历到就打印并将booble置为true下次不打印 外面有if判断
  */
 public class _35第一个只出现一次的字符 {
     public static void main(String[] args){
         String str = "goog";
         char result = firstNotReprtingChar(str);
         System.out.println(result);
-        //相关题目3
+        //相关题目2
         deleteRepeatingChar("google");
     }
 

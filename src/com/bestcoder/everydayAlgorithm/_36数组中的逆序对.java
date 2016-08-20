@@ -8,7 +8,7 @@ package com.bestcoder.everydayAlgorithm;
  *
  * 思路：不和后面每一个数字比较，先比较两个相邻的，
  *      先类似归并排序，把数字分成两份，继续分到只剩一个然后合并两个长度为1的子数组并排序，统计逆序对，合并完长度为1的再合并长度为2的
- *      分成的两部分，用两个指针指i，j向两部分的最后一个元素，如果i>j逆序对有第二个数组长度的个数，并把i放入辅助数组i指针前移，辅助数组指针前移
+ *      分成的两部分，用两个指针i，j指向两部分的最后一个元素，如果i>j逆序对有第二个数组长度的个数，并把i放入辅助数组i指针前移，辅助数组指针前移
  *      若<则无逆序对 j和辅助数组指针前移
  *      归并O(nlogn) 空间O(n)
  */
@@ -28,6 +28,14 @@ public class _36数组中的逆序对 {
         return count;
     }
 
+    /**
+     *
+     * @param data1 原始数组
+     * @param copy1 辅助数组
+     * @param start 数组开始索引
+     * @param end 数组结束索引
+     * @return 逆序对数目
+     */
     private static int inversePairsCore(int[] data1, int[] copy1, int start, int end) {
         if (start == end){      //递归结束的标志，分成最后两份中只有一个元素
             copy1[start] = data1[start];
@@ -43,7 +51,7 @@ public class _36数组中的逆序对 {
         int index = end; //辅助数组最后指针
         int count = 0;
         while (i >= start && j>= mid+1){
-            if (data1[i] > data1[j]){                           //在上面1处，因为copy和data顺序是反的，所以其实改变的是data，跳出来后就比较data
+            if (data1[i] > data1[j]){    //在上面1处，因为copy和data顺序是反的，所以其实改变的是data，跳出来后就比较data
                 copy1[index--] = data1[i--];
                 count += j - mid;
             }else {

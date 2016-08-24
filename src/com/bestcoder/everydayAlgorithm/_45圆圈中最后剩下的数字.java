@@ -24,6 +24,12 @@ public class _45圆圈中最后剩下的数字 {
         System.out.println(result);//3
     }
 
+    /**
+     *
+     * @param n  0,1,2,...,n-1这n个数排成一个圆圈
+     * @param m 每次从这个圆圈里删除第m个数字
+     * @return 圆圈剩下的最后一个数字
+     */
     public static int lastRemaining(int n,int m){
         if (n < 1 || m < 1)
             return -1;
@@ -48,6 +54,7 @@ public class _45圆圈中最后剩下的数字 {
         return list.get(0);
     }
     //方法二
+    //f(n,m) = 0(n=1);[f(n-1,m)+m]%n (n>1)
     public static int lastRemaining2(int n,int m){
         if (n < 1 || m < 1){
             return -1;

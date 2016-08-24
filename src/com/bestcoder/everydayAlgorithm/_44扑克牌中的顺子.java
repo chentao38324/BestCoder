@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 /**
  * Created by chentao on 16-8-11.
+ * 题目：从扑克牌中随机抽5张牌，判断是不是一个顺子， 即这5张牌是不是连续的。
+ *      2～10为数字本身， A为1。 J为11、Q为12、 为13。小王可以看成任意数字。
+ *
+ * 思路：做3 件事情： 首先把数组排序，再统计数组中0 的个数，最后统计排序之后的数组中相邻数字之间的空缺总数。
+ *      如果空缺的总数小于或者等于0 的个数，那么这个数组就是连续的：反之则不连续。
+ *      最后，我们还需要注意一点： 如果数组中的非0 数字重复出现，则该数组不是连续的。
+ *      换成扑克牌的描述方式就是如果一副牌里含有对子，则不可能是顺子。
  */
 public class _44扑克牌中的顺子 {
     public static void main(String[] args){
@@ -35,7 +42,7 @@ public class _44扑克牌中的顺子 {
             }else if (numbers[i] == numbers[i+1]){
                 return false;
             }else {
-                numberOfGap += (numbers[i+1] - numbers[i] - 1);
+                numberOfGap += (numbers[i+1] - numbers[i] - 1);//空缺总数
             }
         }
         if (numberOfZero >= numberOfGap){

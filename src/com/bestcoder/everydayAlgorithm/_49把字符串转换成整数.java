@@ -5,7 +5,7 @@ package com.bestcoder.everydayAlgorithm;
  *  题目不难 要考虑的多
  *  非法输入的的处理 全局变量
  *  一开始输入“” null 的处理
- *  +— 号的处理
+ *  + — 号的处理
  *
  *  思路：判断 第一位 是 + OR - OR 0-9 OR others  同时赋值 第一位从哪里遍历 0 or 1 是不是负数 minus
  *       核心代码 core  遍历str 如果是0-9 进行转换 此时加个flag（-1 和 1）
@@ -22,9 +22,9 @@ public class _49把字符串转换成整数 {
     }
 
     public static long strToInt(String str){
-        gInvalid = true; //输入有效 置位
+        gInvalid = false; //输入有效 置位
         if (str == null || str.length() < 1){
-            gInvalid = false;
+            gInvalid = true;
             return 0;
         }
 
@@ -39,7 +39,7 @@ public class _49把字符串转换成整数 {
         }else if (isDigit(firstBit)){
             
         }else { //开头不是+-号和数字
-            gInvalid = false;
+            gInvalid = true;
             return 0;
         }
         return strToIntCore(str,index,minus);
@@ -49,15 +49,15 @@ public class _49把字符串转换成整数 {
         long num = 0;
         for (int i = index; i < str.length(); i++) {
             if (isDigit(str.charAt(i))) {
-                int flag = isMinus ? -1 : 1; //负数每次×-1 整数 × 1
+                int flag = isMinus ? -1 : 1; //负数每次×-1 正数 × 1
                 num = num * 10 + flag * (str.charAt(i) - '0');
                 //正数负数溢出
                 if ((!isMinus && num > 0x7FFFFFFF) || (isMinus && num < 0x80000000)){
-                    gInvalid = false;
+                    gInvalid = true;
                     return 0;
                 }
             }else { //除了第一位 某一位不是数字
-                gInvalid = false;
+                gInvalid = true;
                 return 0;
             }
         }
